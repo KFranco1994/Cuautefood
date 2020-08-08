@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "504577545468",
+    "firebase_url": "https://cuautefood.firebaseio.com",
+    "project_id": "cuautefood",
+    "storage_bucket": "cuautefood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504577545468:android:957bf87cfa3c1d4f1ab379",
+        "android_client_info": {
+          "package_name": "com.karfra.cuautefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504577545468-3c2h2t3f21ip9ko45m89bkofqqjj2n6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karfra.cuautefood",
+            "certificate_hash": "ac8086c8080852f8d37e25808dbab86e57bd353b"
+          }
+        },
+        {
+          "client_id": "504577545468-cio6qp21dhur37bb1q1ojchns0jsvms5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsT6zMKNQJYHTEV8yBwtOQRxwtiev9MZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504577545468-cio6qp21dhur37bb1q1ojchns0jsvms5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

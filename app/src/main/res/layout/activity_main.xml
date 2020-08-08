@@ -1,0 +1,61 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="1000px"
+        android:layout_height="1500px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:src="@drawable/splash"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/logo"/>
+
+        <TextView
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:layout_alignBottom="@id/logo"
+            android:layout_marginBottom="-100px"
+            android:text="Tu restaurante favorito hasta la puerta de tu hogar"
+            android:textSize="50px"
+            android:id="@+id/txtSlogan"/>
+
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:layout_alignBottom="@+id/txtSlogan"
+            android:layout_marginBottom="-100dp"
+            android:text="INGRESAR CON GOOGLE"
+            android:background="#00BFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="65px"
+            android:drawableStart="@drawable/common_google_signin_btn_icon_dark_normal"
+            android:textAlignment="textStart"
+            android:paddingStart="16dp"
+            />
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="1000px"
+            android:layout_height="150px"
+            android:layout_alignBottom="@+id/btnGoogle"
+            android:layout_marginBottom="-100dp"
+            android:text="CERRAR SESION"
+            android:background="#00BFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="65px"
+            android:drawableStart="@drawable/common_google_signin_btn_icon_dark_normal"
+            android:textAlignment="textStart"
+            android:paddingStart="16dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
